@@ -1,0 +1,71 @@
+/* Styles pour la barre de navigation */
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/images/bg-resto.jpg);
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin-right: 1rem;
+    font-family: roboto;
+}
+
+header nav ul li a {
+    display: inline-block;
+    font-size: 1.25rem; /* Taille de la police pour les liens */
+    text-decoration: none;
+    color: #fdf6f6;
+    font-weight: bold;
+}
+
+header nav div p {
+    display: inline-block;
+    color: #ffbf00; /* Couleur Amber */
+}
+
+/* Mise en forme des sections */
+section {
+    border: 0;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+section h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffbf00; /* Couleur Amber */
+}
+
+section ul {
+    padding-left: 1.5rem;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Mise en forme du titre principal */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #4a4a4a;
+    margin: 2rem 0;
+}
+
+/* Style pour le message de contact */
+section p {
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-top: 2rem;
+}
